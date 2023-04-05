@@ -1,4 +1,4 @@
-module github.com/ONSdigital/dp-mongodb-in-memory
+module github.com/pachecoio/inmemory-mongo
 
 go 1.19
 

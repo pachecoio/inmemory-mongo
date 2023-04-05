@@ -33,7 +33,7 @@ The downloaded mongodb binary will be stored in a local cache: a folder named `d
 To install this package run:
 
 ```bash
-go get github.com/ONSdigital/dp-mongodb-in-memory
+go get github.com/pachecoio/inmemory-mongo
 ```
 
 ## Usage
@@ -52,7 +52,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	mim "github.com/ONSdigital/dp-mongodb-in-memory"
+	mim "github.com/pachecoio/inmemory-mongo"
 )
 
 func TestExample(t *testing.T) {
